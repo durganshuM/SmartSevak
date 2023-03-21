@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+    <include layout="@layout/header"/>
+
+    <ImageView
+        android:layout_weight="1"
+        android:id="@+id/qrcode_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/qr_code_image"
+        android:scaleType="centerCrop" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/edit_text"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter text to encode"-->
+<!--        android:inputType="text"-->
+<!--        android:padding="16dp" />-->
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/generate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_qr_code"
+        android:backgroundTint="@color/blue_0"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/grey_0"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Card Number: "
+                android:textColor="@color/black"/>
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Balance"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/cardNumberView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/card_number"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/cardBalanceView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/balance_amount"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/footer"/>
+
+</LinearLayout>

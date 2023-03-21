@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_weight="1"
+    android:weightSum="1.5"
+    android:background="@color/grey_0">
+    
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/header_title"
+        android:text="@string/header_name"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue_0"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+
+    <ImageButton
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:backgroundTint="@color/grey_0"
+        android:importantForAccessibility="no"
+        android:src="@drawable/addicon" />
+
+    <ImageButton
+        android:id="@+id/bellButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:backgroundTint="@color/grey_0"
+        android:importantForAccessibility="no"
+        android:src="@drawable/bellbutton" />
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Smart Sevak</string>
+    <string name="header_name">SMART SEVAK</string>
+    <string name="result_not_found">Result Not Found</string>
+    <string name="card_number">0000-0000-0000-0000</string>
+    <string name="balance_amount">00.00</string>
+    <string name="show_qr_code">Show QR Code</string>
+    <string name="qr_code_image">QR Code Image</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="user_name">Name</string>
+    <string name="user_aadhaar">AADHAAR</string>
+    <string name="otp">OTP</string>
+    <string name="profileName">Name</string>
+    <string name="profileAadhaar">Name</string>
+    <string name="profilePhone">Name</string>
+    <string name="postHint">A penny for your thoughts…</string>
+    <string name="post_user_name">User Name</string>
+    <string name="post_like_count">0</string>
+    <string name="post_text">Post Text</string>
+    <string-array name="report_type">
+        <item>Accidents(Black Spot)</item>
+        <item>Education</item>
+        <item>Infrastructure/Services</item>
+        <item>Other</item>
+    </string-array>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "795545646870",
+    "firebase_url": "https://smart-sevak-2d36b-default-rtdb.firebaseio.com",
+    "project_id": "smart-sevak-2d36b",
+    "storage_bucket": "smart-sevak-2d36b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795545646870:android:48de6f9f5b24d26b4d8237",
+        "android_client_info": {
+          "package_name": "com.example.smartsevak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795545646870-e0g6n36u057g57pmjqtqntjefdbv42uq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartsevak",
+            "certificate_hash": "33efb99c4d3b1377d8761b0d1122c42976fe5bc1"
+          }
+        },
+        {
+          "client_id": "795545646870-jueu3lqec06h2fifilmtj6krcdv4tgkk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6q7nD0oSVjAAZU-vx6rxmECtY-td4Ls0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795545646870-esv1cc1kjtuf0h5a7av89ft2afnvsvpr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
